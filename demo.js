@@ -41,60 +41,69 @@ Promise.all([
 ])
     .then((value) => {
         console.log(value)
-        $("#name").append(value[0].results[0].title)
-        $("#date").append(value[0].results[0].release_date)
-        $("#overview").append(value[0].results[0].overview)
-        $("#popularity").append(value[0].results[0].popularity)
-        $("#img").attr('src', 'https://image.tmdb.org/t/p/w500/' + (value[0].results[0].poster_path)).height(250).width(250)
+        // $("#name").append(value[0].results[0].title)
+        // $("#date").append(value[0].results[0].release_date)
+        // $("#overview").append(value[0].results[0].overview)
+        // $("#popularity").append(value[0].results[0].popularity)
+        // $("#img").attr('src', 'https://image.tmdb.org/t/p/w500/' + (value[0].results[0].poster_path)).height(250).width(250)
 
-        // Second movie
-        $("#name1").append(value[1].results[0].title)
-        $("#date1").append(value[1].results[0].release_date)
-        $("#overview1").append(value[1].results[0].overview)
-        $("#popularity1").append(value[1].results[0].popularity)
-        $("#img1").attr('src','https://image.tmdb.org/t/p/w500/'+(value[1].results[0].poster_path)).height(250).width(250)
+        // // Second movie
+        // $("#name1").append(value[1].results[0].title)
+        // $("#date1").append(value[1].results[0].release_date)
+        // $("#overview1").append(value[1].results[0].overview)
+        // $("#popularity1").append(value[1].results[0].popularity)
+        // $("#img1").attr('src', 'https://image.tmdb.org/t/p/w500/' + (value[1].results[0].poster_path)).height(250).width(250)
 
-        //Third Movie
-        $("#name2").append(value[2].results[0].title)
-        $("#date2").append(value[2].results[0].release_date)
-        $("#overview2").append(value[2].results[0].overview)
-        $("#popularity2").append(value[2].results[0].popularity)
-        $("#img2").attr('src','https://image.tmdb.org/t/p/w500/'+(value[2].results[0].poster_path)).height(250).width(250)
+        // //Third Movie
+        // $("#name2").append(value[2].results[0].title)
+        // $("#date2").append(value[2].results[0].release_date)
+        // $("#overview2").append(value[2].results[0].overview)
+        // $("#popularity2").append(value[2].results[0].popularity)
+        // $("#img2").attr('src', 'https://image.tmdb.org/t/p/w500/' + (value[2].results[0].poster_path)).height(250).width(250)
 
-        //Card 1
-        $("#name3").append(value[3].results[0].title)
-        $("#date3").append(value[3].results[0].release_date)
-        $("#overview3").append(value[3].results[0].overview)
-        $("#popularity3").append(value[3].results[0].popularity)
-        $("#img3").attr('src','https://image.tmdb.org/t/p/w500/'+(value[3].results[0].poster_path)).height(250).width(250)
+        // //Card 1
+        // $("#name3").append(value[3].results[0].title)
+        // $("#date3").append(value[3].results[0].release_date)
+        // $("#overview3").append(value[3].results[0].overview)
+        // $("#popularity3").append(value[3].results[0].popularity)
+        // $("#img3").attr('src', 'https://image.tmdb.org/t/p/w500/' + (value[3].results[0].poster_path)).height(250).width(250)
 
-        //Card 2
-        $("#name4").append(value[4].results[0].title)
-        $("#date4").append(value[4].results[0].release_date)
-        $("#overview4").append(value[4].results[0].overview)
-        $("#popularity4").append(value[4].results[0].popularity)
-        $("#img4").attr('src','https://image.tmdb.org/t/p/w500/'+(value[4].results[0].poster_path)).height(250).width(250)
+        // //Card 2
+        // $("#name4").append(value[4].results[0].title)
+        // $("#date4").append(value[4].results[0].release_date)
+        // $("#overview4").append(value[4].results[0].overview)
+        // $("#popularity4").append(value[4].results[0].popularity)
+        // $("#img4").attr('src', 'https://image.tmdb.org/t/p/w500/' + (value[4].results[0].poster_path)).height(250).width(250)
 
-        //Card 3
-        $("#name5").append(value[5].results[0].title)
-        $("#date5").append(value[5].results[0].release_date)
-        $("#overview5").append(value[5].results[0].overview)
-        $("#popularity5").append(value[5].results[0].popularity)
-        $("#img5").attr('src','https://image.tmdb.org/t/p/w500/'+(value[5].results[0].poster_path)).height(250).width(250)
+        // //Card 3
+        // $("#name5").append(value[5].results[0].title)
+        // $("#date5").append(value[5].results[0].release_date)
+        // $("#overview5").append(value[5].results[0].overview)
+        // $("#popularity5").append(value[5].results[0].popularity)
+        // $("#img5").attr('src', 'https://image.tmdb.org/t/p/w500/' + (value[5].results[0].poster_path)).height(250).width(250)
 
-        //Card 4
-        $("#name6").append(value[6].results[0].title)
-        $("#date6").append(value[6].results[0].release_date)
-        $("#overview6").append(value[6].results[0].overview)
-        $("#popularity6").append(value[6].results[0].popularity)
-        $("#img6").attr('src','https://image.tmdb.org/t/p/w500/'+(value[6].results[0].poster_path)).height(250).width(250)
+        // //Card 4
+        // $("#name6").append(value[6].results[0].title)
+        // $("#date6").append(value[6].results[0].release_date)
+        // $("#overview6").append(value[6].results[0].overview)
+        // $("#popularity6").append(value[6].results[0].popularity)
+        // $("#img6").attr('src', 'https://image.tmdb.org/t/p/w500/' + (value[6].results[0].poster_path)).height(250).width(250)
 
         //Card 5
-        $("#name7").append(value[7].results[0].title)
-        $("#date7").append(value[7].results[0].release_date)
-        $("#overview7").append(value[7].results[0].overview)
-        $("#popularity7").append(value[7].results[0].popularity)
-        $("#img7").attr('src','https://image.tmdb.org/t/p/w500/'+(value[7].results[0].poster_path)).height(250).width(250)
+        // $("#name7").append(value[7].results[0].title)
+        // $("#date7").append(value[7].results[0].release_date)
+        // $("#overview7").append(value[7].results[0].overview)
+        // $("#popularity7").append(value[7].results[0].popularity)
+        // $("#img7").attr('src', 'https://image.tmdb.org/t/p/w500/' + (value[7].results[0].poster_path)).height(250).width(250)
+
+        //using loop
+        $.each(value, function (index) {
+            $("#name"+index).append(value[index].results[0].title)
+            $("#date"+index).append(value[index].results[0].release_date)
+            $("#overview"+index).append(value[index].results[0].overview)
+            $("#popularity"+index).append(value[index].results[0].popularity)
+            $("#img"+index).attr('src', 'https://image.tmdb.org/t/p/w500/' + (value[index].results[0].poster_path)).height(250).width(250)
+        });
     })
     .catch((err) => {
         console.log(err);
